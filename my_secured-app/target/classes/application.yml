@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: my-secured-app
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 
+            clientSecret: 
+#  security:
+#    user:
+#      name: sam
+#      password: sam123
+server:
+  port: 8085
